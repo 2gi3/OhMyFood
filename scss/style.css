@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+.logo {
+  padding-left: 27%;
+  margin: 3% 0;
+}
+
+.location {
+  background-color: #eaeaea;
+  -webkit-box-shadow: inset 0 3px 4px #B2BEB5;
+          box-shadow: inset 0 3px 4px #B2BEB5;
+  color: #4c4c4c;
+  margin-left: -20px;
+  padding: 18px;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
+
+.location .fas {
+  margin-right: 17px;
+}
+
+.info {
+  background-color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-title {
+  text-align: center;
+  min-width: 100%;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.header-subtitle {
+  margin-top: 10px;
+  text-align: center;
+  min-width: 100%;
+  color: #4c4c4c;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.header-subtitle p {
+  max-width: 85%;
+  margin-left: 7.5%;
+}
+
+.header-button {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: linear-gradient(to bottom, #ff79da, #9356dc);
+  border-radius: 50px;
+  border: 2px solid #f2f2f2;
+  margin: 30px 0 50px 0;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 20px;
+  width: 50%;
+  max-width: 200px;
+}
+
+.step-title {
+  min-width: 100%;
+  font-size: 12px;
+}
+
+.step {
+  margin-top: 20px;
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  -webkit-box-shadow: 7px 6px 6px #ccc;
+          box-shadow: 7px 6px 6px #ccc;
+  padding: 1em 1em 1em 1em;
+  margin-left: 1em;
+  width: 75%;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.step-number {
+  text-align: center;
+  background-color: #9356dc;
+  border-radius: 50%;
+  padding: 0 5px 8px 5px;
+  color: white;
+  width: 8px;
+  height: 8px;
+  margin-left: -20px;
+}
+
+.fa-mobile-alt {
+  padding: 15px;
+  color: #3c3c3c;
+}
+/*# sourceMappingURL=style.css.map */
