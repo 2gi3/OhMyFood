@@ -5,10 +5,25 @@
 $primary-color:#9356DC;
 $secondary-color:#FF79DA;
 $tertiary-color:#99E2D0;
+$btn-color:linear-gradient(to bottom, $secondary-color, $primary-color);
 
 $logo-font: Shrikhand;
 $title-font: Shrikhand;
 $text-font: Roboto;
+
+@mixin btn {
+  color: #fff;
+      background: $btn-color;
+      border-radius: 50px;
+      border: 2px solid #f2f2f2;
+      text-decoration: none;
+      text-align: center;
+      padding: 21px 20px;
+      &:hover{
+        //  not working with $btn-color
+        background: lighten($color: $secondary-color, $amount: 10%);
+      }  
+}
 
 * {
     margin: 0;
@@ -41,13 +56,13 @@ $text-font: Roboto;
   flex-wrap: wrap;
   justify-content: center;
 
-    .header-title{
+    .header__title{
       text-align: center;
       min-width: 100%;     
       font-size: 13px;
       padding: 20px;
     } 
-    .header-subtitle{
+    .header__subtitle{
       margin-top: 10px;
       text-align: center;
       min-width:100%;      
@@ -60,17 +75,11 @@ $text-font: Roboto;
         }
     
     }
-    .header-button{
-      color: #fff;
-      background: linear-gradient(to bottom, #ff79da, #9356dc);
-      border-radius: 50px;
-      border: 2px solid #f2f2f2;
+    .homepage__btn{
       margin:30px 0 55px 0;
-      text-decoration: none;
-      text-align: center;
-      padding: 21px 20px;
       width: 55%;
       max-width: 200px;
+      @include btn;
     }
   }
   
@@ -81,7 +90,7 @@ $text-font: Roboto;
   width: 100%;
   padding: 10% 5%;
 
-  .steps-title{
+  .steps__title{
     min-width: 100%;    
     font-size: 13px;
   }

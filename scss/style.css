@@ -39,14 +39,14 @@
           justify-content: center;
 }
 
-.info .header-title {
+.info .header__title {
   text-align: center;
   min-width: 100%;
   font-size: 13px;
   padding: 20px;
 }
 
-.info .header-subtitle {
+.info .header__subtitle {
   margin-top: 10px;
   text-align: center;
   min-width: 100%;
@@ -55,23 +55,27 @@
   font-size: 18px;
 }
 
-.info .header-subtitle p {
+.info .header__subtitle p {
   max-width: 85%;
   margin-left: 7.5%;
 }
 
-.info .header-button {
+.info .homepage__btn {
+  margin: 30px 0 55px 0;
+  width: 55%;
+  max-width: 200px;
   color: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
-  background: linear-gradient(to bottom, #ff79da, #9356dc);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(to bottom, #FF79DA, #9356DC);
   border-radius: 50px;
   border: 2px solid #f2f2f2;
-  margin: 30px 0 55px 0;
   text-decoration: none;
   text-align: center;
   padding: 21px 20px;
-  width: 55%;
-  max-width: 200px;
+}
+
+.info .homepage__btn:hover {
+  background: #fface8;
 }
 
 .steps {
@@ -79,7 +83,7 @@
   padding: 10% 5%;
 }
 
-.steps .steps-title {
+.steps .steps__title {
   min-width: 100%;
   font-size: 13px;
 }
