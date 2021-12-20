@@ -10,9 +10,10 @@ a {
   text-decoration: none;
 }
 
-.logo {
-  padding-left: 27%;
+.logo--home {
   margin: 3% 0;
+  display: block;
+  padding-left: 27%;
 }
 
 .location {
