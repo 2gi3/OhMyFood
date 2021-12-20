@@ -128,19 +128,18 @@
   font-family: "Roboto";
 }
 
-.restaurants .restaurant-picture {
-  width: 100%;
-  height: 150px;
+.restaurants-title {
+  margin: 15px;
 }
 
 .restaurants .new {
   position: relative;
   text-align: center;
-  z-index: 9000;
-  margin-bottom: -40px;
-  left: 80%;
-  width: 75px;
-  height: 30px;
+  z-index: 1;
+  margin-bottom: -45px;
+  left: 70%;
+  width: 85px;
+  height: 25px;
   background-color: #99e2d0;
   font-family: "Roboto";
   color: #278870;
@@ -148,23 +147,37 @@
   padding-top: 5px;
 }
 
-.restaurants .under-pic {
-  border: 1px solid blue;
+.restaurant {
+  margin: 15px;
+}
+
+.restaurant .restaurant-picture {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 200px;
+}
+
+.restaurant .under-pic {
+  border-radius: 0 0 15px 15px;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.restaurants .full-pallette-picture {
+.restaurant .full-pallette {
   background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
 }
 
-.restaurant {
-  border: 1px solid black;
-  width: 100%;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+.restaurant .enchanted-plate {
+  background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+}
+
+.restaurant .bastille {
+  background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+}
+
+.restaurant .gourmand {
+  background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
 }
 /*# sourceMappingURL=style.css.map */
