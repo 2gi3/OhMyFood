@@ -6,6 +6,10 @@
   font-family: Roboto;
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo {
   padding-left: 27%;
   margin: 3% 0;
@@ -163,6 +167,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.restaurant .restaurant-text {
+  min-width: 80%;
+  padding: 10px;
+  color: black;
+}
+
+.restaurant .restaurant-heart {
+  padding: 20px;
 }
 
 .restaurant .full-pallette {
