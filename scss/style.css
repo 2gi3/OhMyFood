@@ -98,7 +98,7 @@ a {
   border-radius: 25px;
   -webkit-box-shadow: 7px 6px 6px #ccc;
           box-shadow: 7px 6px 6px #ccc;
-  padding: 1em 1em 1em 1em;
+  padding: 20px;
   width: 75%;
   font-family: "Roboto";
   font-size: 14px;
@@ -116,11 +116,11 @@ a {
   color: white;
   width: 8px;
   height: 8px;
-  margin-left: -20px;
+  margin-left: -27px;
 }
 
-.steps .step .fa-mobile-alt {
-  padding: 15px;
+.steps .step .fas {
+  margin: 0 15px;
   color: #3c3c3c;
 }
 
@@ -213,11 +213,11 @@ footer ul {
   line-height: 30px;
 }
 
-footer ul a {
+footer a {
   color: white;
 }
 
-footer ul .fas {
+footer .fas {
   margin-right: 5px;
 }
 /*# sourceMappingURL=style.css.map */
