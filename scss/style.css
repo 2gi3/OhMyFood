@@ -197,4 +197,27 @@ a {
 .restaurant .gourmand {
   background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
 }
+
+footer {
+  background-color: #353535;
+  min-height: 120px;
+  padding: 15px;
+  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 15px;
+  font-family: "Roboto";
+  line-height: 30px;
+}
+
+footer ul a {
+  color: white;
+}
+
+footer ul .fas {
+  margin-right: 5px;
+}
 /*# sourceMappingURL=style.css.map */
