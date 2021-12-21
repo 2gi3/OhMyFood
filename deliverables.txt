@@ -1,0 +1,26 @@
+Compatibility
+As the target market is the connected and hurried population, the site will be developed
+using the mobile-first approach. For this reason, only mobile models will be made.
+On tablet and desktop, the site will have to adapt, but these formats are not a priority, so
+the developer defines the layout.
+● The whole site will have to be responsive on mobile, tablet, and desktop.
+● The pages will have to pass W3C validation in HTML and CSS without errors.
+● The site must be fully compatible with the latest desktop versions of Chrome,
+Firefox, and Safari.
+Deliverables
+Page Content
+Homepage (x1)
+● Display the location of restaurants. Eventually, it will be possible to choose
+restaurants close to a certain place.
+● A short presentation of the company.
+● A section containing the four menus in the form of cards. When clicking on the card,
+the user is redirected to the menu page.
+Menu Pages (x4)
+● Four pages each containing a restaurant menu.
+Footer
+● The footer is identical on all pages.
+● When you click on Contact, a link to an email address is made.
+Header
+● The header is present on all pages.
+● The home page contains the logo of the site.
+● The menu pages contain a button to return to the home page
