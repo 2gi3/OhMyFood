@@ -65,4 +65,37 @@ nav .fas {
 .menu-title .title-heart {
   padding: 22px 30px 0 0;
 }
+
+.course {
+  margin-left: 30px;
+  border-bottom: 2px solid #99e2d0;
+}
+
+.dish {
+  height: 60px;
+  width: 90%;
+  margin: 18px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 10px 0;
+          box-shadow: 0 10px 10px 0;
+  overflow: hidden;
+}
+
+.dish .dish-description {
+  margin-top: 20px;
+}
+
+.dish .dish-price {
+  padding-top: 35px;
+  margin-left: 25px;
+  font-weight: bold;
+}
 /*# sourceMappingURL=full-palette.css.map */
