@@ -1,0 +1,28 @@
+.dish {
+  height: 60px;
+  width: 90%;
+  margin: 18px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 10px 0;
+          box-shadow: 0 10px 10px 0;
+  overflow: hidden;
+}
+
+.dish .dish__description {
+  margin-top: 20px;
+}
+
+.dish .dish__price {
+  padding-top: 35px;
+  margin-left: 25px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=dish.css.map */
