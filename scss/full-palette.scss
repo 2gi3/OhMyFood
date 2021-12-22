@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap');
-
+@import 'footer';
+@import 'mixin-btn';
 
 $primary-color:#9356DC;
 $secondary-color:#FF79DA;
@@ -96,6 +97,11 @@ nav{
     font-weight: bold;
   }
 }
-// reuse footer and button from homepage
+.restaurant__btn{
+  margin:10% 18%;
+  width: 55%;
+  max-width: 200px;
+  @include btn;
+}
 
  
