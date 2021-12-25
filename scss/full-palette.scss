@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap');
 @import 'restaurant-header';
 @import 'menu';
-@import 'dish';
 @import 'footer';
 
 
@@ -26,7 +25,58 @@ $text-font: Roboto;
     text-decoration: none;
   }
 
- 
+  .dish{
+    height: 60px;
+    width: 90%;
+    margin: 18px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 ;
+    overflow: hidden;
+    .dish__description{
+      margin-top: 15px;
+      padding-left: 10px;
+    }
+    .dish__price{
+      display: flex;
+      
+          
+        .dish__price--euro {
+          padding-top: 35px;
+          margin: 0 25px;
+          font-weight: bold;
+          transition: margin-right 850ms ease-in 50ms;
+        }
+        .dish__price--animation{
+          background-color: #99E2D0;
+          text-align: center;
+          padding: 22px;
+          width: 40px;   
+          margin-right: -94px;
+          transition: margin-right 1500ms ease;               
+        }
+        .fas{
+          background-color: $tertiary-color;
+          color: white;
+          transition: transform 1500ms ease 100ms;
+        }
+    }
+}   .dish__price:hover{
+      
+      .dish__price--euro {
+        z-index: 1;
+        margin-right: 5px;              
+      }
+      .dish__price--animation{
+        z-index: 2;
+        margin-right: 0;                
+      }
+      .fas{
+        transform: rotate(-360deg);
+      } 
+
+    }
 
 
  
