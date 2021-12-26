@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,YAAY,CAAA;EACZ,gBAAgB,EAAE,oEAAoE;CACrF",
+    "sources": [
+        "../scss/restaurant-header--palette.scss"
+    ],
+    "names": [],
+    "file": "restaurant-header--palette.css"
+}
