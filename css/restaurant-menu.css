@@ -51,6 +51,54 @@ footer .fas {
   margin-right: 5px;
 }
 
+@-webkit-keyframes dish-load {
+  0% {
+    color: white;
+    -webkit-box-shadow: 0 10px 10px 0 white;
+            box-shadow: 0 10px 10px 0 white;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes dish-load {
+  0% {
+    color: white;
+    -webkit-box-shadow: 0 10px 10px 0 white;
+            box-shadow: 0 10px 10px 0 white;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes course-animation {
+  0% {
+    color: white;
+    border-bottom: none;
+  }
+  100% {
+    color: black;
+  }
+}
+
+@keyframes course-animation {
+  0% {
+    color: white;
+    border-bottom: none;
+  }
+  100% {
+    color: black;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -87,9 +135,16 @@ a {
   padding: 22px 30px 0 0;
 }
 
+h3 {
+  -webkit-animation: course-animation 1350ms ease-in;
+          animation: course-animation 1350ms ease-in;
+}
+
 .course {
   margin-left: 30px;
   border-bottom: 2px solid #99e2d0;
+  -webkit-animation: course-animation 1250ms ease-in;
+          animation: course-animation 1250ms ease-in;
 }
 
 .dish {
@@ -106,6 +161,8 @@ a {
   -webkit-box-shadow: 0 10px 10px 0 #00000075;
           box-shadow: 0 10px 10px 0 #00000075;
   overflow: hidden;
+  -webkit-animation: dish-load 1000ms ease-in;
+          animation: dish-load 1000ms ease-in;
 }
 
 .dish .dish__description {
@@ -184,5 +241,12 @@ a {
   background: linear-gradient(#fface8, #ae80e5);
   -webkit-box-shadow: 0px 10px 10px 0px rgba(12, 12, 12, 0.1);
   box-shadow: 0px 10px 10px 0px rgba(12, 12, 12, 0.1);
+}
+
+.fst-dish {
+  -webkit-animation-duration: 750ms;
+          animation-duration: 750ms;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
 }
 /*# sourceMappingURL=restaurant-menu.css.map */
