@@ -41,6 +41,121 @@ footer .fas {
   }
 }
 
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.loader-container {
+  background-color: #9356DC;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loader-container .loader1 {
+  -webkit-animation: rotate 3000ms ease-in, fade-out 2000ms linear 1000ms;
+          animation: rotate 3000ms ease-in, fade-out 2000ms linear 1000ms;
+  background-color: #9356DC;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.loader-container .loader1 .loader2 {
+  border: 3px solid #99E2D0;
+  background-color: #FF79DA;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.loader-container .loader1 .loader3 {
+  border: 3px solid #99E2D0;
+  background-color: #FF79DA;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  right: 20px;
+  top: 49px;
+}
+
+.loader-container .loader1 .loader4 {
+  border: 3px solid #99E2D0;
+  background-color: #FF79DA;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  right: 5px;
+  top: 44px;
+}
+
+.loader-container .loader1 .loader5 {
+  border: 3px solid #99E2D0;
+  background-color: #FF79DA;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 13px;
+  top: 33px;
+}
+
+.loader-container .loader1 .loader6 {
+  border: 3px solid #99E2D0;
+  background-color: #FF79DA;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  left: 15px;
+  top: 21px;
+}
+
 * {
   margin: 0;
   padding: 0;
