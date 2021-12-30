@@ -18,8 +18,14 @@ $text-font: Roboto;
   to {opacity: 1;}
 }
 @keyframes fade-out {
-  from {opacity: 1;}
-  to {opacity: 0;}
+  from{  
+  transform: translateX(0%);
+}
+to {
+  
+  transform: translateX(110%);
+  opacity: 0;
+}
 }
 @keyframes rotate {
   from { transform: rotate(0deg); }
@@ -28,16 +34,20 @@ $text-font: Roboto;
 
 .loader-container{
   background-color: $primary-color;
-  width: 100vw;
-  height: 100vh;
+  margin-top: -20px;
+  width: 100%;
+  height: 110%;
   display: flex;
   justify-content: space-around;
   align-items: center;  
+  position: fixed;
+  z-index: 2;
+  animation: fade-out 1000ms ease-in 2000ms;
+  animation-fill-mode: forwards;
     .loader1{
-      animation: rotate 3000ms ease-in,
-                  fade-out 2000ms linear 1000ms;
+      animation: rotate 3000ms ease-in;
       // border: 3px solid black;
-      background-color: $primary-color;
+     
       width: 200px;
       height: 200px;
       border-radius: 50%;
