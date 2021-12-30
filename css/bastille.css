@@ -51,6 +51,23 @@ footer .fas {
   margin-right: 5px;
 }
 
+@media all and (min-width: 768px) {
+  footer {
+    min-height: 60px;
+  }
+  footer h4 {
+    text-align: center;
+  }
+  footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    min-height: 60px;
+  }
+}
+
 @-webkit-keyframes dish-load {
   0% {
     color: white;

@@ -130,10 +130,11 @@ $text-font: Roboto;
 
     }
     .restaurant__btn{
-      margin:10% 18%;
+      margin:40px 18%;
       width: 55%;
       max-width: 200px;
       @include btn;
+     
     }
     .fst-dish {
       animation-duration: 750ms;
@@ -141,3 +142,16 @@ $text-font: Roboto;
     }
 
  
+    @media all and (min-width: 768px){
+    .restaurant__btn{
+    margin-left: 20%;
+    }
+    .menu{
+      max-width: 768px;
+      background-color: #f6f6f6;
+      min-height: 1000px;
+      border-radius: 35px 35px 0 0;
+      margin-top: -1000px;  
+      z-index: 3;
+    }
+  }

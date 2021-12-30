@@ -29,7 +29,7 @@ to {
 }
 @keyframes rotate {
   from { transform: rotate(0deg); }
-  to {transform: rotate(360deg); }
+  to {transform: rotate(450deg); }
 }
 
 .loader-container{
@@ -42,10 +42,10 @@ to {
   align-items: center;  
   position: fixed;
   z-index: 2;
-  animation: fade-out 1000ms ease-in 2000ms;
+  animation: fade-out 450ms ease-in 2050ms;
   animation-fill-mode: forwards;
     .loader1{
-      animation: rotate 3000ms ease-in;
+      animation: rotate 2500ms ease-in;
       // border: 3px solid black;
      
       width: 200px;
@@ -116,8 +116,12 @@ to {
   
     .logo--home{
       margin: 3% 0;
-      display: block;
-      padding-left: 27%;
+      
+      display: flex;
+      justify-content: space-around;
+        img{
+          max-width: 350px;
+        }
     }
 
 .location{
@@ -288,7 +292,9 @@ to {
   }
     /* Tablet */
 @media all and (min-width: 768px) and (max-width: 991px){
-        
+  .logo--home{
+    margin:8px 0;
+  }
   .steps{
     
     padding: 5%;
@@ -308,6 +314,7 @@ to {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 10px;
     &-title{
       width: 90%;
       margin: 15px;
@@ -322,7 +329,70 @@ to {
 
 
 
-// @media all and (min-width: 992px) {
-
-// }
+@media all and (min-width: 992px) {
+  .logo--home{
+    margin: 10px 0;
+  }
+   header{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+      .logo--home{
+        width: 100%;
+      }
+      .location{
+        width: 100%;
+      }
+      .info{
+        background-color: white;
+        width: 45%;
+        .header__title{
+          padding-bottom: 5px;
+        }
+        .header__subtitle{
+          margin-bottom: 10px;
+        }
+        .homepage__btn {
+          padding-top: 33px;
+          height: 35px;
+          margin-bottom: 0;
+       }
+      }
+     
+   }
+   
+   .steps{
+    background-color: white;
+        width: 45%;
+    padding: 1% 5%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    .steps__title{
+      margin-right: 10%;
+      
+      min-width: auto;    
+      
+    }
+      .step{        
+        margin-right: 9%;
+      }
+  }
+  .restaurants {
+    margin-top: 0;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &-title{
+      width: 90%;
+      margin: 15px;
+      padding-left: 25px;
+    }
+    .restaurant{
+      width: 45%;
+      max-width: 500px;
+    }
+    }
+}
   
