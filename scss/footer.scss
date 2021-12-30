@@ -13,4 +13,16 @@ footer {
       a{color: white;}
       .fas{ margin-right: 5px;}
   }
-  
+  @media all and (min-width: 768px){
+    footer{
+      min-height: 60px;
+        h4{
+          text-align: center;
+        }
+        ul{
+      display: flex;
+      justify-content: space-around;
+      min-height: 60px;
+        }
+    }
+  }

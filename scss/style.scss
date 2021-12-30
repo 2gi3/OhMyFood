@@ -184,6 +184,7 @@ to {
     box-shadow: 7px 6px 6px #ccc;
     padding: 20px;       
     width: 75%;
+    max-width: 350px;
     font-family: "Roboto";
     font-size: 14px;
     font-weight: bold;
@@ -285,5 +286,43 @@ to {
       background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
     }
   }
-  
+    /* Tablet */
+@media all and (min-width: 768px) and (max-width: 991px){
+        
+  .steps{
+    
+    padding: 5%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    .steps__title{
+      margin-right: 10%;
+      min-width: auto;    
+      
+    }
+      .step{        
+        margin-right: 9%;
+      }
+  }
+  .restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &-title{
+      width: 90%;
+      margin: 15px;
+    }
+    .restaurant{
+      width: 45%;
+      max-width: 500px;
+    }
+    }
+}
+
+
+
+
+// @media all and (min-width: 992px) {
+
+// }
   
