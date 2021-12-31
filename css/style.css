@@ -3,8 +3,14 @@
 footer {
   background-color: #353535;
   min-height: 120px;
-  padding: 15px;
+  padding: 15px 20px;
   color: #fff;
+}
+
+footer h4 {
+  font-family: Shrikhand;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
 footer ul {
@@ -241,7 +247,7 @@ a {
 
 .info .header__title {
   text-align: center;
-  min-width: 100%;
+  min-width: 90%;
   font-size: 13px;
   padding: 20px;
 }
@@ -262,8 +268,8 @@ a {
 
 .info .homepage__btn {
   margin: 30px 0 55px 0;
-  width: 55%;
-  max-width: 200px;
+  width: 60%;
+  max-width: 205px;
   color: #fff;
   background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
@@ -271,7 +277,7 @@ a {
   border: 2px solid #f2f2f2;
   text-decoration: none;
   text-align: center;
-  padding: 21px 20px;
+  padding: 20px 20px;
 }
 
 .info .homepage__btn a {
@@ -286,13 +292,14 @@ a {
 }
 
 .steps {
-  width: 100%;
+  width: 90%;
   padding: 10% 5%;
 }
 
 .steps .steps__title {
-  min-width: 100%;
-  font-size: 13px;
+  min-width: 80%;
+  font-size: 11px;
+  font-weight: 400;
 }
 
 .steps .step {
@@ -301,11 +308,11 @@ a {
   border-radius: 25px;
   -webkit-box-shadow: 7px 6px 6px #ccc;
           box-shadow: 7px 6px 6px #ccc;
-  padding: 20px;
+  padding: 23px;
   width: 75%;
-  max-width: 350px;
+  max-width: 300px;
   font-family: "Roboto";
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,11 +335,14 @@ a {
   color: #3c3c3c;
 }
 
+.steps .step:hover {
+  background-color: #fff9fd;
+}
+
 .restaurants {
   margin-top: 35px;
   background-color: #f4f4f4;
-  padding-top: 35px;
-  padding-left: 10px;
+  padding: 30px 0 30px 10px;
   font-family: "Roboto";
 }
 
@@ -345,6 +355,7 @@ a {
   text-align: center;
   z-index: 1;
   margin-bottom: -45px;
+  margin-top: 30px;
   left: 70%;
   width: 85px;
   height: 25px;
