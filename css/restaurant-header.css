@@ -2,24 +2,24 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 3%;
+  padding-top: 10px;
+}
+
+.fa-arrow-left {
+  position: absolute;
+  padding: 1.5vw 0 0 20px;
+  color: black;
+  font-size: 20px;
+  z-index: 9000;
 }
 
 .logo {
-  display: inline;
-}
-
-nav .fas {
-  margin-top: 3%;
-  min-width: 16vw;
-  height: 70%;
-  padding-left: 20px;
-  padding-top: 2vw;
-  color: black;
-  font-size: 20px;
+  padding-left: 25vw;
+  max-width: 350px;
 }
 
 .header__img {
+  margin-top: 10px;
   display: block;
   width: 100%;
   height: 250px;
@@ -27,6 +27,9 @@ nav .fas {
 }
 
 @media all and (min-width: 768px) {
+  .logo {
+    padding-left: 35vw;
+  }
   .header__img {
     display: block;
     width: 100%;
