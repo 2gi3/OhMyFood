@@ -97,6 +97,9 @@ $text-font: Roboto;
     .dish__description{
       margin-top: 15px;
       padding-left: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
         h4{padding-right: 10px;}
         p{
           color: rgba(0, 0, 0, 0.700);
@@ -113,7 +116,7 @@ $text-font: Roboto;
           padding: 35px 10px 0 0;
           margin: 0 15px;
           font-weight: bold;
-          transition: margin-right 850ms ease-in 50ms;
+          transition: margin-right 800ms ease-in 50ms;
         }
         .dish__price--animation{
           background-color: #99E2D0;
@@ -122,12 +125,12 @@ $text-font: Roboto;
           width: 20px;   
           margin-left: 5px;
           margin-right: -74px;
-          transition: margin-right 1500ms ease;               
+          transition: margin-right 750ms ease;               
         }
         .fas{
           background-color: $tertiary-color;
           color: white;
-          transition: transform 1500ms ease 100ms;
+          transition: transform 700ms ease 50ms;
         }
     }
 }  
@@ -142,7 +145,7 @@ $text-font: Roboto;
         margin-right: 0;                
       }
       .fas{
-        transform: rotate(-360deg);
+        transform: rotate(360deg);
       } 
 
     }
