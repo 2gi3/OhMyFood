@@ -323,11 +323,12 @@ a {
   text-align: center;
   background-color: #9356dc;
   border-radius: 50%;
-  padding: 0 5px 8px 5px;
+  padding: 3px 5px 8px 5px;
   color: white;
   width: 8px;
   height: 8px;
   margin-left: -27px;
+  font-size: 12px;
 }
 
 .steps .step .fas {
@@ -335,8 +336,12 @@ a {
   color: #3c3c3c;
 }
 
-.steps .step:hover {
-  background-color: #fff9fd;
+.steps .step:nth-child(4) {
+  background-color: #f2eafb;
+}
+
+.steps .step:nth-child(4) .fas {
+  color: #9356DC;
 }
 
 .restaurants {
@@ -404,6 +409,7 @@ a {
 }
 
 .restaurant .restaurant-heart:hover .heart-f {
+  cursor: pointer;
   display: block;
   -webkit-animation: fadein 3s;
 }

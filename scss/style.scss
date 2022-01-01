@@ -197,25 +197,27 @@ to {
     
     
     .step-number{
-    
       text-align: center;
       background-color: #9356dc;
       border-radius: 50%;
-      padding: 0 5px 8px 5px;
+      padding: 3px 5px 8px 5px;
       color: white;
       width: 8px;
       height: 8px;
       margin-left: -27px;
+      font-size: 12px;
     }
     .fas{
     margin: 0 15px;
     color: #3c3c3c;
     }
-
+    &:nth-child(4){
+      background-color: lighten($color: $primary-color, $amount: 35);
+      .fas{
+        color: $primary-color;
+      }
   }
-  .step:hover{
-    background-color: lighten($color: $secondary-color, $amount: 25);
-  }
+}
 }
 
 .restaurants {
@@ -274,6 +276,7 @@ to {
       }
         &:hover{
           .heart-f{ 
+            cursor: pointer;
             display: block;
             -webkit-animation: fadein 3s;
           }
