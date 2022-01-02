@@ -120,6 +120,7 @@ to {
       display: flex;
       justify-content: space-around;
         img{
+          width: 55%;
           max-width: 350px;
         }
     }
@@ -266,7 +267,9 @@ to {
     .restaurant-text{
       min-width: 80%;
       padding: 10px;
-      color: black;
+        a{
+          color: black;
+        }
     }
     .restaurant-heart{
       margin: 20px;

@@ -214,6 +214,7 @@ a {
 }
 
 .logo--home img {
+  width: 55%;
   max-width: 350px;
 }
 
@@ -396,6 +397,9 @@ a {
 .restaurant .restaurant-text {
   min-width: 80%;
   padding: 10px;
+}
+
+.restaurant .restaurant-text a {
   color: black;
 }
 
