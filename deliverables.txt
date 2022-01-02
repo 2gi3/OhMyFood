@@ -3,17 +3,16 @@ As the target market is the connected and hurried population, the site will be d
 using the mobile-first approach. For this reason, only mobile models will be made.
 On tablet and desktop, the site will have to adapt, but these formats are not a priority, so
 the developer defines the layout.
-
-● The pages will have to pass W3C validation in HTML and CSS without errors.
+? ● Display the location of restaurants. Eventually, it will be possible to choose
+restaurants close to a certain place.
+● A short presentation of the company.
 ● The site must be fully compatible with the latest desktop versions of Chrome,
 Firefox, and Safari.
 Deliverables
 Header
 Page Content
 Homepage (x1)
-? ● Display the location of restaurants. Eventually, it will be possible to choose
-restaurants close to a certain place.
-● A short presentation of the company.
+(done)● The pages will have to pass W3C validation in HTML and CSS without errors.
 (done)● The whole site will have to be responsive on mobile, tablet, and desktop.
 (done)● When you click on Contact, a link to an email address is made.
 (done)● A section containing the four menus in the form of cards. When clicking on the card,
